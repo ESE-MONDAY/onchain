@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className='flex justify-center  items-center flex-col border-t-[1px] border-t-[#fff] '>
       <div className='w-full  flex items-center justify-center p-8'>
         <div className='flex flex-col gap-4 w-full items-center justify-center'>
-          <Image src={onchain} alt='Onchainpromo Logo' loading='lazy' className='w-40 h-40' />
+          <Image src={onchain} alt='Onchainpromo Logo' loading='lazy' className='w-24 h-24' />
           <p className='sm:text-3xl text-xl font-bold text-center text-white'>OnChainPromo LTD</p>
           <div>
         
