@@ -2,7 +2,7 @@ import React from 'react'
 
 const Faq = () => {
   return (
-    <div className='w-full h-screen flex flex-col items-center ' id='faq'>
+    <div className='w-full h-[70vh] flex flex-col justify-center items-center ' id='faq'>
      
       <div className='max-w-[800px] mx-auto mt-12'>
       <h2 className='font-bold text-xl sm:text-3xl py-8 text-center text-white'>Frequently Asked Question</h2>

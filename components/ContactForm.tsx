@@ -26,7 +26,7 @@ const ContactForm = () => {
         
       };
   return (
-    <div id='contact' className=' w-full h-screen flex items-center'>
+    <div id='contact' className=' w-full min-h-screen flex items-center'>
         <div className='max-w-[800px] mx-auto w-full'>
             <h2 className='font-bold text-xl sm:text-3xl py-8 text-center text-white'>Contact Us</h2>
         <form onSubmit={handleSubmit} className='flex flex-col mt-12 '>
@@ -65,7 +65,7 @@ const ContactForm = () => {
                   type="button"
                   value="Submit"
                   onClick={handleSubmit}
-                  className='transition-all text-[#363636] border-[#363636] border-[1px] hover:text-[#fff] mt-4 p-4 rounded-md w-[50%] bg-transparent hover:bg-[#363636] ease-in-out duration-300'
+                  className='transition-all text-white border-white border-[1px] mt-4 p-4 rounded-md w-[50%] bg-transparent hover:bg-[#363636] ease-in-out duration-300'
                 />
             </form>
         </div>
