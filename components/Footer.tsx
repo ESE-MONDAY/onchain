@@ -5,7 +5,7 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
   return (
     <div className='flex justify-center  items-center'>
-        <div className='border-t-[1px] flex-col sm:flex-row  p-4 border-t-[#fff] w-full flex justify-between items-center '>
+        <div className='border-t-[1px] flex-col sm:flex-row  p-4 px-8 sm:px-24 border-t-[#fff] w-full flex justify-between items-center px- '>
           <div className='flex gap-4'>
             <Link href='/policy' className='font-semibold'>Privacy Policy</Link>
             <Link href='/terms' className='font-semibold'>Terms Of Service</Link>
