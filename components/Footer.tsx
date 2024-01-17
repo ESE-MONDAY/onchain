@@ -15,7 +15,7 @@ const Footer = () => {
           <p className='text-sm  font-bold  flex justify-center items-center p-2 '>
            <span className='text-[#fff]/70 pr-2'>
         &copy; {currentYear} 
-            </span> OnChainPromo.com. All rights reserved.</p>
+            </span> OnChainPromo.com. All rights reserved. </p>
           </div>
           
           
